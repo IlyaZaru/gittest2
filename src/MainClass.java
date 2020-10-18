@@ -12,5 +12,6 @@ public class MainClass {
         CalculaterImpl calculater = new CalculaterImpl();
         alternativePrinterCommits.printCommit();
         System.out.println(calculater.sumAndSub(GenerateRandon.generate(), GenerateRandon.generate()));
+        System.out.println("______________");
     }
 }
