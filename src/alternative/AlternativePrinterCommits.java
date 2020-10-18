@@ -16,6 +16,6 @@ public class AlternativePrinterCommits {
     }
 
     public void printCommit(){
-        System.out.println("This is alternative - "+commitMessage.getMessage());
+        System.out.println("This is alternative yeahhhh - "+commitMessage.getMessage());
     }
 }
