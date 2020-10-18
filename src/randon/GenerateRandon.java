@@ -6,6 +6,6 @@ public class GenerateRandon {
     private static Random random = new Random();
 
     public static int generate(){
-        return random.nextInt(30);
+        return random.nextInt(50);
     }
 }
