@@ -10,4 +10,8 @@ public class CalculaterImpl implements Calculater {
     public int substract(int a, int b) {
         return a-b;
     }
+
+    public int sumAndSub(int a, int b){
+        return sun(a,b) + substract(a,b);
+    }
 }
