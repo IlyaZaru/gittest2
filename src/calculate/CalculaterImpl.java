@@ -14,4 +14,8 @@ public class CalculaterImpl implements Calculater {
     public int sumAndSub(int a, int b){
         return sun(a,b) + substract(a,b);
     }
+
+    public int getZero(){
+        return 0;
+    }
 }
